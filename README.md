@@ -3,7 +3,7 @@
 ## Directions
 Respond to short response questions in clear, concise sentences directly within this file. Use markdown to ensure that your answers are formatted correctly.
 
-Complete code challenges in `exercises.py` or `exercises.js`. 
+Complete code challenges in `exercises.js`. 
 
 Use Test Driven Development to guide you. For JavaScript, run `npm install` to download dependencies. Run `npm test` to run tests locally. Ensure all tests are passing before submitting this problem set.
 
@@ -59,7 +59,7 @@ Ouput: true
 
 Explaination: The 3rd and 5th items are the same. Both have a name of "glove" with price of 1 and weight of 1. 
 
-``````
+
 Inputs: 
   name = ["ball", "bat", "glove", "glove", "glove"]
   price = [2, 3, 1, 2, 2]
