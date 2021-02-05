@@ -5,11 +5,13 @@ Respond to short response questions in clear, concise sentences directly within 
 
 Complete code challenges in `exercises.js`. 
 
-Use Test Driven Development to guide you. For JavaScript, run `npm install` to download dependencies. Run `npm test` to run tests locally. Ensure all tests are passing before submitting this problem set.
+Use Test Driven Development to guide you. Run `npm install` to download dependencies. Run `npm test` to run tests locally. Ensure all tests are passing before submitting this problem set.
 
 ### Short Response Questions
 
 **1. What is a Hash Map and how does it work?** Be sure to mention the terms "hash key" and "hash function" in your explanation.
+
+**2. What are the benefits of using a Hash Map rather than storing all of our data in an Array?**
 
 ### Coding Exercises
 
