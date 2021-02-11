@@ -15,6 +15,8 @@ Use Test Driven Development to guide you. Run `npm install` to download dependen
 
 ### Coding Exercises
 
+**Solve all the problem below using a linear run time `O(n)` run time!**
+
 **1.** Given a non-empty array of numbers, every element appears twice except for one. Find that single number and return it. Implement a function `singleNumber()` with a **linear runtime complexity.**
 
 ```
