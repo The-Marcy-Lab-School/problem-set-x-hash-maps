@@ -15,9 +15,7 @@ Use Test Driven Development to guide you. Run `npm install` to download dependen
 
 ### Coding Exercises
 
-Use a **Hash Map** to solve the following problems. Since Hash Maps are abstract data types, you can use any data struture (Arrays, Objects, Maps, etc.) to represent a Hash Map.
-
-**1.** Given a non-empty array of numbers, every element appears twice except for one. Find that single number and return it. Implement a function `singleNumber()` with a linear runtime complexity.
+**1.** Given a non-empty array of numbers, every element appears twice except for one. Find that single number and return it. Implement a function `singleNumber()` with a **linear runtime complexity.**
 
 ```
 Input: nums = [2,2,1]
@@ -27,7 +25,7 @@ Input: nums = [4,1,2,1,2]
 Output: 4
 ```
 
-**2.** Given an arbitrary ransom note string and another string containing all letters from a magazine, write a function that will return true if the ransom note string can be constructed from all the letters in the magazine; otherwise, it will return false. Each letter in the magazine string can only be used once in your ransom note. Implement a function `canConstruct()` with a linear runtime complexity.
+**2.** Given an arbitrary ransom note string and another string containing all letters from a magazine, write a function that will return true if the ransom note string can be constructed from all the letters in the magazine; otherwise, it will return false. Each letter in the magazine string can only be used once in your ransom note. Implement a function `canConstruct()` with a **linear runtime complexity.**
 
 ```
 Input: ransomNote = "a", magazine = "bcdefg"
@@ -49,7 +47,7 @@ name = ["ball", "bat", "glove", "glove", "glove"]
 price = [2, 3, 1, 2, 1]
 weight = [2, 5, 1, 1, 1]
 ```
-Our first product is a ball with price of 2 and a weight of 2. The second product is a bat with a price of 3 and a weight of 5. Our third product is a glove with a price of 1 and a weight of 1. Our fourth product is a glove with a price of 2 and a weight of 1. **Duplicate products contain identical parameters for all fields in the list (i.e. name, price, and weight).** Write a function `hasDuplicates()` that returns true if there is a duplicate product, and returns false if every product is unique. Your solution should have linear runtime complexity.
+Our first product is a ball with price of 2 and a weight of 2. The second product is a bat with a price of 3 and a weight of 5. Our third product is a glove with a price of 1 and a weight of 1. Our fourth product is a glove with a price of 2 and a weight of 1. **Duplicate products contain identical parameters for all fields in the list (i.e. name, price, and weight).** Write a function `hasDuplicates()` that returns true if there is a duplicate product, and returns false if every product is unique. Your solution should have **linear runtime complexity.**
 
 ```
 Inputs: 
