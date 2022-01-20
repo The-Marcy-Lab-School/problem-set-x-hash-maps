@@ -11,9 +11,13 @@ Use Test Driven Development to guide you. Run `npm install` to download dependen
 
 **1. What is a Hash Map and how does it work?** Be sure to mention the terms "hash key" and "hash function" in your explanation.
   
-   > A `Hash Map` which is better known as a `Hash Table` is a data structure that maps key-value pairs. `Hash Maps`' perform lookup, insertion, and deletion operations efficiently and therefore usually have a constant run time of O(1). `Hash Map`s can be implemented by creating a `hash()` function that excepts a `key` and a `value` as input and the `key` is used as the `hash key` for accessing the index associated with the `key` that is stored at it's specificied `index` when it is added to the `Hash Table`.  
+   > A `Hash Map` is a data structure that maps key-value pairs (similar to an object), and stores these pairs within an `Array()`. Unlike `Hash Tables` (which also have a key-value pair functionality) where the `keys` can only be an integer or a string, `Hash Map`'s can be of any data type. `Hash Map`s can be implemented by creating a `hash()` function that excepts a `key` and a `value` as input and the `key` is used as the `hash key` for accessing the index associated with the `key` that is stored at it's specified `index` when it is added to the `Hash Table`. `Hash Maps`' perform lookup, insertion, and deletion operations efficiently and therefore usually have a constant run time of O(1)
+
 
 **2. What are the benefits of using a Hash Map rather than storing all of our data in an Array?**
+
+ > > The benefit of using A `Hash Map` rather than storing all of your data in an `array` is the difference in runtime (time complexity) and the limit to the data types that can be present in the `array`. An `array` can only consist of items of the same data type, where `Hash Maps`s can store any `key`-`value` pairs. A `Hash Map` can be as complex where you can assign a `key` to be a string `""` and its value to be an object `{}` with its own set of `key`-`value` pairs.
+ > >> For methods like to `search()`, `insert()`, `lookUp()`, and to `deleteItem()`, `Hash Map` usually has a constant run time of O(1). The time complexity to `search()`, `insert()` and `delete()` in an `array` has a linear time complexity O(n), but does have the benefit of looking for an item at constant `O(1)` runtime when you know the index(address) you are looking for. Unlike `Hash Map`s, the normal `array` has to shift every element over when adding to the beginning of the array, where `Hash Map`'s allow you to insert `key`-`value` pairs and store them at any index depending on the `character code` of the `key` modulo `(%)` the `.length` of the `Hash Map`'s `size`. This method allows the `key` and its `value` to be stored at some `index` within our `Hash Map` without storing at an `index` that exceeds or `Hash Map`'s `.length`. 
 
 ### Coding Exercises
 
