@@ -10,6 +10,7 @@ Use Test Driven Development to guide you. Run `npm install` to download dependen
 ### Short Response Questions
 
 **1. What is a Hash Map and how does it work?** Be sure to mention the terms "hash key" and "hash function" in your explanation.
+   A `Hash Map` which is better known as a `Hash Table` is a data structure that maps key-value pairs. `Hash Maps`' perform lookup, insertion, and deletion operations efficiently and therefore usually have a constant run time of O(1). `Hash Map`s can be implemented by creating a `hash()` function that excepts a `key` and a `value` as input and the `key` is used as the `hash key` for accessing the index associated with the `key` that is stored at it's specificied `index` when it is added to the `Hash Table`.  
 
 **2. What are the benefits of using a Hash Map rather than storing all of our data in an Array?**
 
