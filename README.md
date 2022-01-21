@@ -15,7 +15,7 @@ Use Test Driven Development to guide you. Run `npm install` to download dependen
 
 ### Coding Exercises
 
-Use a Hash Map to solve the following problems. Since Hash Maps are abstract data types, you can use any data struture (Arrays, Objects, Maps, etc.) to represent a Hash Map.
+**Use a Hash Map to solve the following problems**. Since Hash Maps are abstract data types, you can use any data struture (Arrays, Objects, Maps, etc.) to represent a Hash Map.
 
 
 **1.** Given a non-empty array of numbers, every element appears twice except for one. Find that single number and return it. Implement a function `singleNumber()` with a **linear runtime complexity.**
