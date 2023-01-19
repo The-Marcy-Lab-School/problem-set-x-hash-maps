@@ -11,7 +11,7 @@ Use Test Driven Development to guide you. Run `npm install` to download dependen
 
 **1. What is a Hash Map and how does it work?** Be sure to mention the terms "hash key" and "hash function" in your explanation.
 
-**2. What are the benefits of using a Hash Map compared to using an Array? Be sure to mention the runtimes for retreival (getting a value given the key/index), search (finding a value), insertion, and deletion.**
+**2. What are the benefits of using a Hash Map compared to using an Array? Be sure to mention the runtimes for retreival (getting a value given the key/index), insertion, and deletion.**
 
 ### Coding Exercises
 
