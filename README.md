@@ -15,7 +15,7 @@ Use Test Driven Development to guide you. Run `npm install` to download dependen
 
 ### Coding Exercises
 
-**Use a Hash Map to solve the following problems**. Since Hash Maps are abstract data types, you can use any data struture (Arrays, Objects, Maps, etc.) to represent a Hash Map.
+**Use a Hash Map to solve the following problems**. Since Hash Maps are abstract data types, you can use any data structure (Arrays, Objects, Maps, etc.) to represent a Hash Map.
 
 
 **1.** Given a non-empty array of numbers, every element appears twice except for one. Find that single number and return it. Implement a function `singleNumber()` with a **linear runtime complexity.**
@@ -44,13 +44,13 @@ Output: true
 Explanation: Your ransom note requires two `a`s and a `b`, and the magazine has at least two `a`s and at least one `b`.
 ```
 
-**3.** You are given a list of products whose data is seperated into three different arrays that holds the name, price, and weight of the product respectively. Consider the following arrays for example: 
+**3.** You are given a list of products whose data is separated into three different arrays that hold the name, price, and weight of the product respectively. Consider the following arrays for example: 
 ```
 name = ["ball", "bat", "glove", "glove", "glove"]
 price = [2, 3, 1, 2, 1]
 weight = [2, 5, 1, 1, 1]
 ```
-Our first product is a ball with price of 2 and a weight of 2. The second product is a bat with a price of 3 and a weight of 5. Our third product is a glove with a price of 1 and a weight of 1. Our fourth product is a glove with a price of 2 and a weight of 1. **Duplicate products contain identical parameters for all fields in the list (i.e. name, price, and weight).** Write a function `hasDuplicates()` that returns true if there is a duplicate product, and returns false if every product is unique. Your solution should have **linear runtime complexity.**
+Our first product is a ball with a price of 2 and a weight of 2. The second product is a bat with a price of 3 and a weight of 5. Our third product is a glove with a price of 1 and a weight of 1. Our fourth product is a glove with a price of 2 and a weight of 1. **Duplicate products contain identical parameters for all fields in the list (i.e. name, price, and weight).** Write a function `hasDuplicates()` that returns true if there is a duplicate product, and returns false if every product is unique. Your solution should have **linear runtime complexity.**
 
 ```
 Inputs: 
@@ -60,7 +60,7 @@ Inputs:
 
 Ouput: true
 
-Explaination: The 3rd and 5th items are the same. Both have a name of "glove" with price of 1 and weight of 1. 
+Explanation: The 3rd and 5th items are the same. Both have a name of "glove" with a price of 1 and weight of 1. 
 
 
 Inputs: 
@@ -70,6 +70,6 @@ Inputs:
 
 Ouput: false
 
-Explaination: No two items have the same name, price, and weigth, so there are no duplicates. 
+Explanation: No two items have the same name, price, and weigth, so there are no duplicates. 
 ```
 
