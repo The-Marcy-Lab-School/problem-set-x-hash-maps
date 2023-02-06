@@ -35,7 +35,7 @@ describe("canConstruct", () => {
 describe("hasDuplicates", () => {
   it("returns true if there is a duplicate", () => {
     let name = ["ball", "bat", "glove", "glove", "glove"]
-    let price = [2, 3, 1, 2, 1]
+    let price = [2, 3, 1, 2, 2]
     let weight = [2, 5, 1, 1, 1]
     expect(hasDuplicates(name, price, weight)).toEqual(true)
   })
